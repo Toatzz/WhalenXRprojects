@@ -17,6 +17,8 @@ MonoBehaviour:
   - 
   - 
   - 
+  - Water
+  - UI
   - 
   - 
   - 
@@ -41,7 +43,5 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Climb
+  - Teleport

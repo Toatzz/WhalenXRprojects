@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 703158481}
   - component: {fileID: 703158480}
   - component: {fileID: 703158479}
+  - component: {fileID: 703158484}
   m_Layer: 8
   m_Name: Drawer
   m_TagString: Untagged
@@ -392,6 +393,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703158477}
   m_Mesh: {fileID: 4300008, guid: e41b6552046814b19a9905c4f669429b, type: 3}
+--- !u!114 &703158484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703158477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e045ccc4f494d8940b65788daec91ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AudioClipOnStart>k__BackingField: {fileID: 0}
+  <AudioClipOnEnd>k__BackingField: {fileID: 0}
+  featureUsage: 0
+  drawerSlide: {fileID: 703158478}
+  maxDistance: -4
+  featureDirection: 0
+  open: 0
+  speed: 1
+  simpleInteractable: {fileID: 703158479}
 --- !u!1 &775395284
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,7 +1045,7 @@ MonoBehaviour:
   <AudioClipOnEnd>k__BackingField: {fileID: 0}
   featureUsage: 0
   doorPivot: {fileID: 1579725950}
-  maxAngle: 30.08
+  maxAngle: 60
   reverseAngleDirection: 0
   doorSpeed: 20
   open: 0
@@ -1116,7 +1138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9146878894869587519, guid: 583a086c48d929a498ac0ba43d18f2db, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.655
       objectReference: {fileID: 0}
     - target: {fileID: 9146878894869587519, guid: 583a086c48d929a498ac0ba43d18f2db, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1124,7 +1146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9146878894869587519, guid: 583a086c48d929a498ac0ba43d18f2db, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -5.416
       objectReference: {fileID: 0}
     - target: {fileID: 9146878894869587519, guid: 583a086c48d929a498ac0ba43d18f2db, type: 3}
       propertyPath: m_LocalRotation.w
